@@ -1,0 +1,41 @@
+.customize-control-octo-register {
+	margin-top: -15px;
+}
+.customize-control-octo-register .octo-register-wrapper input[type=radio] {
+	display: none;
+}
+
+.customize-control-octo-register .octo-register-wrapper label {
+	background: #fff;
+	padding: 10px;
+	display: block;
+	flex: 1 1 0;
+	text-align: center;
+}
+
+.customize-control-octo-register .octo-register-wrapper label:not(:last-child) {
+	border-right: 1px solid #dcdcde;
+}
+
+
+.customize-control-octo-register .octo-register-wrapper input:checked + label {
+	background: #007cba;
+	color: #fff;
+}
+
+.octo-register-wrapper {
+	display: flex;
+	margin: 0 -12px 0 -12px;
+	width: auto !important;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.control-section .customize-control[data-register] {
+	position: absolute;
+	left: -999px;
+}
+
+.control-section .show.customize-control[data-register] {
+	position: relative;
+	left: unset;
+}

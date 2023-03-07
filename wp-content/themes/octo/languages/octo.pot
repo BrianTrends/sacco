@@ -1,0 +1,1375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-03 09:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:24
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:27
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgid "One comment on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:62
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:63
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/admin/class-metabox.php:53
+msgid "Octo Settings"
+msgstr ""
+
+#: inc/admin/class-metabox.php:87
+msgid "Content Layout:"
+msgstr ""
+
+#: inc/admin/class-metabox.php:89
+msgid "Standard"
+msgstr ""
+
+#: inc/admin/class-metabox.php:90
+#: inc/customizer/settings/class-footer-settings.php:152
+#: inc/customizer/settings/class-global-settings.php:78
+#: inc/customizer/settings/class-header-settings.php:144
+msgid "Full Width"
+msgstr ""
+
+#: inc/admin/class-metabox.php:95
+msgid "Sidebar-Layout:"
+msgstr ""
+
+#: inc/admin/class-metabox.php:97 inc/admin/class-theme-page.php:68
+msgid "Customizer Settings"
+msgstr ""
+
+#: inc/admin/class-metabox.php:98
+#: inc/customizer/settings/class-content-settings.php:267
+#: inc/customizer/settings/class-footer-settings.php:107
+#: inc/customizer/settings/class-global-settings.php:453
+#: inc/customizer/settings/class-header-settings.php:258
+#: inc/customizer/settings/class-header-settings.php:747
+#: inc/customizer/settings/class-header-settings.php:1312
+#: inc/customizer/settings/class-sidebar-settings.php:116
+#: inc/customizer/settings/class-sidebar-settings.php:144
+#: inc/customizer/settings/class-sidebar-settings.php:172
+#: inc/customizer/settings/class-sidebar-settings.php:200
+msgid "Disabled"
+msgstr ""
+
+#: inc/admin/class-metabox.php:99
+#: inc/customizer/settings/class-sidebar-settings.php:117
+#: inc/customizer/settings/class-sidebar-settings.php:145
+#: inc/customizer/settings/class-sidebar-settings.php:173
+#: inc/customizer/settings/class-sidebar-settings.php:201
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/admin/class-metabox.php:100
+#: inc/customizer/settings/class-sidebar-settings.php:118
+#: inc/customizer/settings/class-sidebar-settings.php:146
+#: inc/customizer/settings/class-sidebar-settings.php:174
+#: inc/customizer/settings/class-sidebar-settings.php:202
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/admin/class-metabox.php:105
+msgid "Disable Elements:"
+msgstr ""
+
+#: inc/admin/class-metabox.php:108
+msgid "Content Title"
+msgstr ""
+
+#: inc/admin/class-metabox.php:112
+#: inc/customizer/settings/class-global-settings.php:449
+#: inc/customizer/settings/class-section.php:223
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/admin/class-metabox.php:116
+#: inc/customizer/settings/class-content-settings.php:69
+#: inc/customizer/settings/class-content-settings.php:160
+#: inc/customizer/settings/class-content-settings.php:466
+msgid "Featured Image"
+msgstr ""
+
+#: inc/admin/class-metabox.php:121 inc/admin/class-theme-page.php:78
+#: inc/customizer/settings/class-panel.php:87
+#: inc/customizer/settings/class-section.php:292 inc/setup/class-widget.php:48
+msgid "Header"
+msgstr ""
+
+#: inc/admin/class-metabox.php:125 inc/admin/class-theme-page.php:81
+#: inc/customizer/settings/class-panel.php:95
+#: inc/customizer/settings/class-section.php:302 inc/setup/class-widget.php:59
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:38 inc/admin/class-theme-page.php:39
+msgid "Octo"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:62
+msgid "Version: "
+msgstr ""
+
+#: inc/admin/class-theme-page.php:69
+msgid ""
+"Start setting up your theme by using the theme customizer. Explore the "
+"variety of options you can choose from to adapt the theme to your needs. "
+msgstr ""
+
+#: inc/admin/class-theme-page.php:72
+msgid "Site Layout"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:75
+msgid "Upload Logo"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:84
+#: inc/customizer/settings/class-footer-settings.php:62
+#: inc/customizer/settings/class-header-settings.php:483
+#: inc/customizer/settings/class-header-settings.php:1162
+#: inc/customizer/settings/class-header-settings.php:1570
+#: inc/customizer/settings/class-panel.php:103
+#: inc/customizer/settings/class-sidebar-settings.php:62
+#: inc/customizer/settings/class-typography-settings.php:61
+#: inc/customizer/settings/class-typography-settings.php:374
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:87
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:90
+msgid "All Customizer Options"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:97
+msgid "Help and Support"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:99
+msgid ""
+"If you need help setting up the theme, just reach out to us. Also in case of "
+"any errors or issues with our theme, don´t hesitate to create a post in the "
+"support forum."
+msgstr ""
+
+#: inc/admin/class-theme-page.php:104
+msgid "Leave a Review"
+msgstr ""
+
+#: inc/admin/class-theme-page.php:106
+msgid ""
+"Do you like our theme? Tell us what you think and leave a review. We highly "
+"appreciate your feedback."
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:79
+msgid "Top Left"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:83
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:87
+msgid "Top Right"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:93
+#: inc/customizer/settings/class-header-settings.php:170
+#: inc/customizer/settings/class-header-settings.php:676
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:97
+#: inc/customizer/settings/class-header-settings.php:171
+#: inc/customizer/settings/class-header-settings.php:677
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:101
+#: inc/customizer/settings/class-header-settings.php:172
+#: inc/customizer/settings/class-header-settings.php:678
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:107
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:111
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/controls/background_image_position/class-background-image-position-control.php:115
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:65
+#: inc/customizer/settings/class-content-settings.php:343
+#: inc/customizer/settings/class-header-settings.php:113
+#: inc/customizer/settings/class-section.php:237
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:70
+msgid "Thumbnail Left"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:108
+#: inc/customizer/settings/class-content-settings.php:385
+#: inc/customizer/settings/class-global-settings.php:103
+msgid "Container Width"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:155
+#: inc/customizer/settings/class-content-settings.php:186
+msgid "Post Structure"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:161
+#: inc/customizer/settings/class-content-settings.php:191
+#: inc/customizer/settings/class-content-settings.php:436
+#: inc/customizer/settings/class-content-settings.php:467
+#: inc/customizer/settings/class-header-settings.php:1859
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:162
+#: inc/customizer/settings/class-content-settings.php:192
+#: inc/customizer/settings/class-content-settings.php:216
+#: inc/customizer/settings/class-content-settings.php:437
+#: inc/customizer/settings/class-content-settings.php:468
+#: inc/customizer/settings/class-content-settings.php:492
+msgid "Meta Items"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:163
+#: inc/customizer/settings/class-content-settings.php:193
+#: inc/customizer/settings/class-content-settings.php:438
+#: inc/customizer/settings/class-content-settings.php:469
+#: inc/customizer/settings/class-panel.php:91
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:221
+#: inc/customizer/settings/class-content-settings.php:497
+msgid "Posted On"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:222
+#: inc/customizer/settings/class-content-settings.php:498
+msgid "Posted By"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:223
+#: inc/customizer/settings/class-content-settings.php:499
+msgid "Comments"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:224
+#: inc/customizer/settings/class-content-settings.php:500
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:225
+#: inc/customizer/settings/class-content-settings.php:501
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:262
+msgid "Meta Item Icons"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:268
+#: inc/customizer/settings/class-global-settings.php:454
+#: inc/customizer/settings/class-header-settings.php:748
+#: inc/customizer/settings/class-header-settings.php:1313
+msgid "Enabled"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:304
+msgid "Post Content"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:309
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:310
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:347
+msgid "Full Width Featured Image"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:348
+msgid "Featured Image Inside Content"
+msgstr ""
+
+#: inc/customizer/settings/class-content-settings.php:431
+#: inc/customizer/settings/class-content-settings.php:461
+msgid "Single Post Structure"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:61
+#: inc/customizer/settings/class-global-settings.php:140
+#: inc/customizer/settings/class-global-settings.php:844
+#: inc/customizer/settings/class-global-settings.php:1062
+#: inc/customizer/settings/class-header-settings.php:68
+#: inc/customizer/settings/class-header-settings.php:482
+#: inc/customizer/settings/class-header-settings.php:1161
+#: inc/customizer/settings/class-header-settings.php:1569
+#: inc/customizer/settings/class-sidebar-settings.php:61
+msgid "General"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:63
+#: inc/customizer/settings/class-global-settings.php:141
+#: inc/customizer/settings/class-global-settings.php:845
+#: inc/customizer/settings/class-global-settings.php:1063
+#: inc/customizer/settings/class-header-settings.php:69
+#: inc/customizer/settings/class-header-settings.php:484
+#: inc/customizer/settings/class-header-settings.php:1163
+#: inc/customizer/settings/class-header-settings.php:1571
+#: inc/customizer/settings/class-panel.php:99
+#: inc/customizer/settings/class-sidebar-settings.php:63
+#: inc/customizer/settings/class-typography-settings.php:62
+#: inc/customizer/settings/class-typography-settings.php:375
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:103
+#: inc/customizer/settings/class-section.php:252
+msgid "Widget Areas"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:108
+msgid "1"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:109
+msgid "2"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:110
+msgid "3"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:111
+msgid "4"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:112
+msgid "5"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:147
+#: inc/customizer/settings/class-header-settings.php:140
+msgid "Width"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:153
+#: inc/customizer/settings/class-header-settings.php:145
+msgid "Content Width"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:196
+#: inc/customizer/settings/class-header-settings.php:827
+#: inc/customizer/settings/class-header-settings.php:952
+#: inc/customizer/settings/class-header-settings.php:1360
+#: inc/customizer/settings/class-header-settings.php:1918
+#: inc/customizer/settings/class-sidebar-settings.php:423
+#: inc/customizer/settings/class-typography-settings.php:176
+#: inc/customizer/settings/class-typography-settings.php:657
+#: inc/customizer/settings/class-typography-settings.php:957
+#: inc/customizer/settings/class-typography-settings.php:1257
+#: inc/customizer/settings/class-typography-settings.php:1465
+#: inc/customizer/settings/class-typography-settings.php:1643
+#: inc/customizer/settings/class-typography-settings.php:1821
+msgid "Font Size"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:253
+#: inc/customizer/settings/class-global-settings.php:337
+#: inc/customizer/settings/class-global-settings.php:1202
+#: inc/customizer/settings/class-header-settings.php:427
+#: inc/customizer/settings/class-header-settings.php:1414
+#: inc/customizer/settings/class-sidebar-settings.php:480
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:278
+#: inc/customizer/settings/class-global-settings.php:287
+#: inc/customizer/settings/class-sidebar-settings.php:505
+#: inc/customizer/settings/class-typography-settings.php:294
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:303
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:328
+#: inc/customizer/settings/class-sidebar-settings.php:555
+#: inc/customizer/settings/class-typography-settings.php:319
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/settings/class-footer-settings.php:353
+#: inc/customizer/settings/class-sidebar-settings.php:580
+#: inc/customizer/settings/class-typography-settings.php:344
+msgid "Link Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:74
+msgid "Container Layout"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:79
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:80
+msgid "Separated"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:182
+#: inc/customizer/settings/class-global-settings.php:1101
+msgid "Border Radius"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:213
+#: inc/customizer/settings/class-global-settings.php:1131
+msgid "Border Width"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:259
+#: inc/customizer/settings/class-global-settings.php:1175
+msgid "Spacing"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:312
+msgid "Text Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:362
+msgid "Background Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:387
+#: inc/customizer/settings/class-global-settings.php:1227
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:413
+msgid "Border Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:489
+msgid "Disable for Frontpage"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:511
+msgid "Disable for Page"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:533
+msgid "Disable for Blog Page"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:555
+msgid "Disable for Single Post"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:577
+msgid "Disable for Archive Page"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:599
+msgid "Disable for Search Result"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:621
+msgid "Disable for 404 Page"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:658
+msgid "Breadcrumbs Separator"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:692
+msgid "Cache Custom CSS"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:693
+msgid ""
+"Cache custom generated CSS code in the database to boost the overall "
+"performance."
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:731
+msgid "Icons"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:732
+msgid "Chose which icon set to load on all pages."
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:737
+msgid "SVG"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:738
+msgid "Dashicons"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:739
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:776
+msgid "Medium Device Breakpoint"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:777
+msgid "Medium device behaviour starts below this screen size."
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:807
+msgid "Small Device Breakpoint"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:808
+msgid "Small device behaviour starts below this screen size."
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:882
+msgid "Body Background Image"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:886
+#: inc/customizer/settings/class-header-settings.php:303
+#: inc/customizer/settings/class-header-settings.php:1689
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:887
+#: inc/customizer/settings/class-header-settings.php:304
+msgid "Change image"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:910
+#: inc/customizer/settings/class-header-settings.php:327
+msgid "Image Position"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:933
+#: inc/customizer/settings/class-header-settings.php:351
+msgid "Image Size"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:937
+#: inc/customizer/settings/class-header-settings.php:356
+msgid "Auto"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:938
+#: inc/customizer/settings/class-header-settings.php:357
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:939
+#: inc/customizer/settings/class-header-settings.php:358
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:960
+#: inc/customizer/settings/class-header-settings.php:379
+msgid "Repeat Background Image"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:982
+#: inc/customizer/settings/class-header-settings.php:402
+msgid "Fix Background Image on Scroll"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:1006
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:1031
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer/settings/class-global-settings.php:1252
+msgid "Border Color Focus"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:117
+msgid "Navigation Inline"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:118
+msgid "Navigation Top"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:119
+msgid "Navigation Bottom"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:166
+#: inc/customizer/settings/class-header-settings.php:671
+msgid "Alignment"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:209
+msgid "Border Bottom Width"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:253
+msgid "Enable Widget Area"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:259
+msgid "Enable for All Devices"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:260
+msgid "Enable for Big and Medium Devices"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:261
+msgid "Enable for Big Devices only"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:298
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:452
+msgid "Border Bottom Color"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:538
+#: inc/customizer/settings/class-header-settings.php:1209
+msgid "Menu Item Width"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:568
+#: inc/customizer/settings/class-header-settings.php:1239
+msgid "Menu Item Height"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:598
+msgid "Submenu Item Height"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:628
+msgid "Submenu Width"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:714
+msgid "Menu Dropdown Target"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:719
+msgid "Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:720
+msgid "Click Icon"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:721
+msgid "Click Menu Item"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:742
+#: inc/customizer/settings/class-header-settings.php:1307
+msgid "Widget Area"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:788
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:789
+#: inc/customizer/settings/class-header-settings.php:913
+#: inc/customizer/settings/class-header-settings.php:1860
+#: inc/customizer/settings/class-typography-settings.php:118
+#: inc/customizer/settings/class-typography-settings.php:468
+#: inc/customizer/settings/class-typography-settings.php:599
+#: inc/customizer/settings/class-typography-settings.php:899
+#: inc/customizer/settings/class-typography-settings.php:1198
+#: inc/customizer/settings/class-typography-settings.php:1406
+#: inc/customizer/settings/class-typography-settings.php:1584
+#: inc/customizer/settings/class-typography-settings.php:1762
+msgid "Font-Family"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:790
+#: inc/customizer/settings/class-header-settings.php:914
+#: inc/customizer/settings/class-header-settings.php:1861
+#: inc/customizer/settings/class-typography-settings.php:119
+#: inc/customizer/settings/class-typography-settings.php:469
+#: inc/customizer/settings/class-typography-settings.php:600
+#: inc/customizer/settings/class-typography-settings.php:900
+#: inc/customizer/settings/class-typography-settings.php:1199
+#: inc/customizer/settings/class-typography-settings.php:1407
+#: inc/customizer/settings/class-typography-settings.php:1585
+#: inc/customizer/settings/class-typography-settings.php:1763
+msgid "Variants"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:791
+#: inc/customizer/settings/class-header-settings.php:915
+#: inc/customizer/settings/class-header-settings.php:1862
+#: inc/customizer/settings/class-typography-settings.php:120
+#: inc/customizer/settings/class-typography-settings.php:470
+#: inc/customizer/settings/class-typography-settings.php:601
+#: inc/customizer/settings/class-typography-settings.php:901
+#: inc/customizer/settings/class-typography-settings.php:1200
+#: inc/customizer/settings/class-typography-settings.php:1408
+#: inc/customizer/settings/class-typography-settings.php:1586
+#: inc/customizer/settings/class-typography-settings.php:1764
+msgid "Text Transform"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:799
+#: inc/customizer/settings/class-header-settings.php:923
+#: inc/customizer/settings/class-header-settings.php:1870
+#: inc/customizer/settings/class-sidebar-settings.php:143
+#: inc/customizer/settings/class-sidebar-settings.php:171
+#: inc/customizer/settings/class-sidebar-settings.php:199
+#: inc/customizer/settings/class-typography-settings.php:128
+#: inc/customizer/settings/class-typography-settings.php:478
+#: inc/customizer/settings/class-typography-settings.php:609
+#: inc/customizer/settings/class-typography-settings.php:909
+#: inc/customizer/settings/class-typography-settings.php:1208
+#: inc/customizer/settings/class-typography-settings.php:1416
+#: inc/customizer/settings/class-typography-settings.php:1594
+#: inc/customizer/settings/class-typography-settings.php:1772
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:800
+#: inc/customizer/settings/class-header-settings.php:924
+#: inc/customizer/settings/class-header-settings.php:1871
+#: inc/customizer/settings/class-typography-settings.php:129
+#: inc/customizer/settings/class-typography-settings.php:479
+#: inc/customizer/settings/class-typography-settings.php:610
+#: inc/customizer/settings/class-typography-settings.php:910
+#: inc/customizer/settings/class-typography-settings.php:1209
+#: inc/customizer/settings/class-typography-settings.php:1417
+#: inc/customizer/settings/class-typography-settings.php:1595
+#: inc/customizer/settings/class-typography-settings.php:1773
+msgid "None"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:801
+#: inc/customizer/settings/class-header-settings.php:925
+#: inc/customizer/settings/class-header-settings.php:1872
+#: inc/customizer/settings/class-typography-settings.php:130
+#: inc/customizer/settings/class-typography-settings.php:480
+#: inc/customizer/settings/class-typography-settings.php:611
+#: inc/customizer/settings/class-typography-settings.php:911
+#: inc/customizer/settings/class-typography-settings.php:1210
+#: inc/customizer/settings/class-typography-settings.php:1418
+#: inc/customizer/settings/class-typography-settings.php:1596
+#: inc/customizer/settings/class-typography-settings.php:1774
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:802
+#: inc/customizer/settings/class-header-settings.php:926
+#: inc/customizer/settings/class-header-settings.php:1873
+#: inc/customizer/settings/class-typography-settings.php:131
+#: inc/customizer/settings/class-typography-settings.php:481
+#: inc/customizer/settings/class-typography-settings.php:612
+#: inc/customizer/settings/class-typography-settings.php:912
+#: inc/customizer/settings/class-typography-settings.php:1211
+#: inc/customizer/settings/class-typography-settings.php:1419
+#: inc/customizer/settings/class-typography-settings.php:1597
+#: inc/customizer/settings/class-typography-settings.php:1775
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:803
+#: inc/customizer/settings/class-header-settings.php:927
+#: inc/customizer/settings/class-header-settings.php:1874
+#: inc/customizer/settings/class-typography-settings.php:132
+#: inc/customizer/settings/class-typography-settings.php:482
+#: inc/customizer/settings/class-typography-settings.php:613
+#: inc/customizer/settings/class-typography-settings.php:913
+#: inc/customizer/settings/class-typography-settings.php:1212
+#: inc/customizer/settings/class-typography-settings.php:1420
+#: inc/customizer/settings/class-typography-settings.php:1598
+#: inc/customizer/settings/class-typography-settings.php:1776
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:912
+msgid "Submenu"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1005
+msgid "Menu Background Color"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1030
+#: inc/customizer/settings/class-header-settings.php:1439
+msgid "Menu Link Color"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1055
+#: inc/customizer/settings/class-header-settings.php:1464
+msgid "Menu Link Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1080
+#: inc/customizer/settings/class-header-settings.php:1489
+msgid "Submenu Background Color"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1105
+#: inc/customizer/settings/class-header-settings.php:1514
+msgid "Submenu Link Color"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1130
+#: inc/customizer/settings/class-header-settings.php:1539
+msgid "Submenu Link Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1281
+msgid "Mobile Menu Breakpoint"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1285
+#: inc/customizer/settings/class-sidebar-settings.php:243
+msgid "Small Device"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1286
+#: inc/customizer/settings/class-sidebar-settings.php:244
+msgid "Medium Device"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1335
+msgid "Mobile Menu Text"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1361
+msgid ""
+"Font-family and text transform settings are inherited from the primary menu "
+"settings."
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1650
+msgid "Logo Max Width"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1683
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1690
+msgid "Change logo"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1711
+msgid "Mobile Logo Max Width"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1762
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:1794
+msgid "Display Tagline"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:2010
+msgid "Tagline Font Size"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:2011
+msgid ""
+"Font-family and text transform settings are inherited from the body "
+"typography settings."
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:2068
+msgid "Title Color"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:2093
+msgid "Title Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-header-settings.php:2118
+msgid "Tagline Color"
+msgstr ""
+
+#: inc/customizer/settings/class-panel.php:83
+msgid "Global"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:204
+#: inc/customizer/settings/class-section.php:273
+msgid "Container"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:208
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:213
+#: inc/customizer/settings/class-section.php:282
+msgid "Buttons"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:218
+msgid "Forms"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:228
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:233
+msgid "Site Identity"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:242
+#: inc/customizer/settings/class-section.php:297
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:247
+msgid "Mobile Navigation"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:256
+msgid "Blog/Archive"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:260
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:264
+#: inc/customizer/settings/class-typography-settings.php:117
+msgid "Body"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:268
+#: inc/customizer/settings/class-section.php:287
+msgid "Headings"
+msgstr ""
+
+#: inc/customizer/settings/class-section.php:277
+#: inc/customizer/settings/class-section.php:307 inc/setup/class-widget.php:44
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:112
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:139
+msgid "Sidebar Layout Pages"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:167
+msgid "Sidebar Layout Blog/Archive"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:195
+msgid "Sidebar Layout Single Posts"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:238
+msgid "Sidebar Breakpoint"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:282
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:311
+msgid "Separator Spacing"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:355
+msgid "Separate Container"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:378
+msgid "Enable Separator"
+msgstr ""
+
+#: inc/customizer/settings/class-sidebar-settings.php:530
+msgid "Headings Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:234
+#: inc/customizer/settings/class-typography-settings.php:506
+#: inc/customizer/settings/class-typography-settings.php:715
+#: inc/customizer/settings/class-typography-settings.php:1014
+#: inc/customizer/settings/class-typography-settings.php:1314
+#: inc/customizer/settings/class-typography-settings.php:1522
+#: inc/customizer/settings/class-typography-settings.php:1700
+#: inc/customizer/settings/class-typography-settings.php:1878
+msgid "Line Height"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:264
+msgid "Paragraph Spacing"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:467
+msgid "H1-H6 Headings"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:536
+#: inc/customizer/settings/class-typography-settings.php:745
+#: inc/customizer/settings/class-typography-settings.php:1044
+#: inc/customizer/settings/class-typography-settings.php:1344
+msgid "Spacing Bottom"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:598
+msgid "H1 Heading"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:809
+msgid "H1 Entry Title Font Size"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:810
+msgid ""
+"Font-family, text transform and line height settings are inherited from the "
+"H1 headings settings."
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:898
+msgid "H2 Heading"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1108
+msgid "H2 Entry Title Font Size"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1109
+msgid ""
+"Font-family, text transform and line height settings are inherited from the "
+"H2 headings settings."
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1197
+msgid "H3 Heading"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1405
+msgid "H4 Heading"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1583
+msgid "H5 Heading"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1761
+msgid "H6 Heading"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1908
+msgid "H1-H6 Text Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1933
+msgid "H1 Text Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1958
+msgid "H1 Entry Title Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:1983
+msgid "H2 Text Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:2008
+msgid "H2 Entry Title Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:2033
+msgid "H2 Entry Title Color Hover"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:2058
+msgid "H3 Text Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:2083
+msgid "H4 Text Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:2108
+msgid "H5 Text Color"
+msgstr ""
+
+#: inc/customizer/settings/class-typography-settings.php:2133
+msgid "H6 Text Color"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:260
+msgid "Browse:"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:261
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:262
+msgid "Home"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:263
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:264
+msgid "Archives"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:266
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:268
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:270
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:272
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:274
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:715
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:733
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:751
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:768
+#: inc/frontend/class-breadcrumb-trail.php:797
+#: inc/frontend/class-breadcrumb-trail.php:836
+#: inc/frontend/class-breadcrumb-trail.php:863
+#: inc/frontend/class-breadcrumb-trail.php:1210
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:769
+#: inc/frontend/class-breadcrumb-trail.php:837
+#: inc/frontend/class-breadcrumb-trail.php:1212
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:770
+#: inc/frontend/class-breadcrumb-trail.php:1214
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/frontend/class-breadcrumb-trail.php:798
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/frontend/class-comments.php:54
+msgid "Pingback:"
+msgstr ""
+
+#: inc/frontend/class-comments.php:54 inc/frontend/class-comments.php:106
+msgid "Edit"
+msgstr ""
+
+#: inc/frontend/class-comments.php:85
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/frontend/class-comments.php:96
+msgid "Reply"
+msgstr ""
+
+#: inc/frontend/class-comments.php:111
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/frontend/class-comments.php:136
+msgid "Name"
+msgstr ""
+
+#: inc/frontend/class-comments.php:144
+msgid "Email"
+msgstr ""
+
+#: inc/frontend/class-comments.php:152
+msgid "Website"
+msgstr ""
+
+#: inc/frontend/class-comments.php:167
+msgid "Comment"
+msgstr ""
+
+#: inc/frontend/class-components.php:291
+msgid "Proudly powered by theme "
+msgstr ""
+
+#: inc/frontend/class-components.php:337
+msgid "Previous Post"
+msgstr ""
+
+#: inc/frontend/class-components.php:338
+msgid "Next Post"
+msgstr ""
+
+#: inc/frontend/class-content.php:94
+msgid ",&#8194;"
+msgstr ""
+
+#: inc/frontend/class-content.php:122
+msgctxt "list item separator"
+msgid ",&#8194;"
+msgstr ""
+
+#: inc/frontend/class-content.php:158
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/frontend/class-content.php:517
+msgid "Read more"
+msgstr ""
+
+#: inc/setup/class-menu.php:44
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup/class-menu.php:45
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/setup/class-widget.php:52
+msgid "Navigation"
+msgstr ""
+
+#: inc/setup/class-widget.php:71
+msgid "Add widgets here."
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:29
+msgid "Pages:"
+msgstr ""

@@ -1,0 +1,55 @@
+.customize-control-octo-spacing ul.octo-controls-wrapper:not(.responsive) {
+    display: flex;
+}
+
+.customize-control-octo-spacing ul.octo-controls-wrapper li {
+    display: block;
+    width: 17% !important;
+}
+
+.customize-control-octo-spacing ul.octo-controls-wrapper li :is(input[type=number], select) {
+    border-radius: 0px;
+}
+
+.customize-control-octo-spacing ul.octo-controls-wrapper li:not(:first-child) {
+    margin-left: -2px
+}
+
+.customize-control-octo-spacing ul.octo-controls-wrapper li:first-child input[type=number]  {
+    border-radius: 2px 0 0 2px;
+}
+
+.customize-control-octo-spacing ul.octo-controls-wrapper li:last-child :is(select, input) {
+    border-radius: 0 2px 2px 0 !important;
+}
+
+.customize-control-octo-spacing .octo-controls-wrapper button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-left: -1px ;
+    margin-right: 10px;
+    min-height: 30px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 2px 0 0 2px;
+}
+
+.customize-control-octo-spacing .octo-link-inputs .dashicons-admin-links,
+.customize-control-octo-spacing .inputs-linked .octo-link-inputs .dashicons-editor-unlink{
+    display: none;
+}
+
+.customize-control-octo-spacing .octo-link-inputs .dashicons-editor-unlink,
+.customize-control-octo-spacing .inputs-linked .octo-link-inputs .dashicons-admin-links{
+    display: inherit;
+}
+
+.customize-control-octo-spacing .inputs-linked .octo-link-inputs {
+    background-color: #ddd !important;
+}
+
+.customize-control-octo-spacing ul.octo-controls-wrapper li *:focus {
+    border-color: #ccc;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

@@ -1,0 +1,60 @@
+.customize-control-octo-typography .customize-control-subtitle {
+	display: block;
+	font-style: italic;
+	margin-bottom: 8px;
+}
+
+.customize-control-octo-typography .octo-controls-wrapper :is(.font-family, .variants) {
+	margin-bottom: 25px;
+}
+
+.customize-control-octo-typography .octo-controls-wrapper .font-family:hover .select2-selection__rendered,
+.customize-control-octo-typography .octo-controls-wrapper .variants:hover select {
+	color: #007cba;
+}
+
+.customize-control-octo-typography .octo-controls-wrapper .font-family .select2-container--focus .select2-selection--single,
+.customize-control-octo-typography .octo-controls-wrapper .font-family .select2-container--open .select2-selection--single {
+	border-color: #007cba;
+	color: #016087;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px #007cba;
+}
+
+.customize-control-octo-typography .octo-controls-wrapper .font-family .select2-selection__rendered,
+.customize-control-octo-typography .octo-controls-wrapper .variants select {
+	transition: color 0.3s;
+}
+
+.select2-results__option,
+.select2-container--default .select2-results__option .select2-results__option {
+	margin-bottom: 0;
+}
+
+span.select2-container.select2-container--default.select2-container--open{
+	z-index: 999999;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.select2-container--default .select2-selection--single {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	height: 30px;
+}
+
+.select2-dropdown {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 30px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 28px;
+}
+
+.select2-dropdown {
+	margin-top: 1px;
+}

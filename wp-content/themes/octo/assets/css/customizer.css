@@ -1,0 +1,233 @@
+.customize-control-content {
+	width: 100%;
+}
+
+/* Forms
+--------------------------------------------- */
+.customize-control input[type=number],
+.customize-control input[type=text] {
+	/*width: 100% !important;*/
+	min-height: 30px !important;
+	padding: 0 5px !important;
+	line-height: 1 !important;
+}
+
+.octo-controls-wrapper input:disabled {
+	background-color: #fff;
+}
+
+/* Responsive Buttons
+--------------------------------------------- */
+.octo-responsive-buttons-wrapper {
+	margin-left: auto;
+}
+
+ul.octo-responsive-buttons {
+	display: flex;
+}
+
+ul.octo-responsive-buttons li {
+	margin: 0;
+}
+
+ul.octo-responsive-buttons li button,
+.octo-reset-button-wrapper button {
+	border: none;
+	color: rgb(126, 137, 147);
+	cursor: pointer;
+	padding: 0 5px;
+	display: flex;
+}
+
+.octo-reset-button-wrapper button {
+	padding 0 2px;
+}
+
+ul.octo-responsive-buttons li button span,
+.octo-reset-button-wrapper button span {
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.octo-reset-button-wrapper button span {
+	font-size: 1em;
+}
+
+ul.octo-responsive-buttons li.active button {
+	color: #007cba;
+}
+
+ul.octo-responsive-buttons li button:hover,
+.octo-reset-button-wrapper button:hover {
+	color: #0073aa;
+}
+
+ul.octo-responsive-buttons li button:focus,
+ul.octo-responsive-buttons li button:active,
+.octo-reset-button-wrapper button:focus,
+.octo-reset-button-wrapper button:active {
+	outline: none;
+}
+
+.octo-controls-wrapper.responsive {
+	display: none;
+}
+
+.octo-controls-wrapper.responsive.active {
+	display: flex;
+}
+
+.octo-buttons-wrapper {
+	display: flex;
+	align-items: center;
+	flex-grow: 1
+}
+
+/* General customize controls
+--------------------------------------------- */
+.customize-control {
+	margin-bottom: 25px
+}
+
+.customize-control-title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+.customize-control-description {
+	margin-bottom: 8px;
+	font-size: 12px;
+}
+
+.customize-control-title,
+p.help,
+p.description,
+span.description,
+.form-wrap p,
+.customize-control label,
+.customize-control-octo-sortable .sortable-item,
+.select2-results,
+.customize-control-octo-typography .octo-controls-wrapper .font-family .select2-selection__rendered,
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.customize-control-octo-typography .customize-control-subtitle {
+	font-size: 12px;
+}
+
+.wp-customizer .wp-picker-container .wp-color-result.button,
+.customize-control input[type=email],
+.customize-control input[type=number],
+.customize-control input[type=password],
+.customize-control input[type=search],
+.customize-control input[type=tel],
+.customize-control input[type=text],
+.customize-control input[type=url],
+.customize-control input:disabled,
+.customize-control select {
+	font-size: 12px;
+	border-radius: 2px;
+	max-width: 600px;
+	border: 1px solid #ccc;
+}
+
+
+/* Radio control
+--------------------------------------------- */
+.customize-control-radio .customize-control-title {
+	margin-bottom: 4px;
+}
+
+.customize-control-radio input {
+	display: none;
+}
+
+.customize-control-radio label {
+	border-radius: 3px;
+}
+
+.customize-control-radio input:checked + label {
+	background: #007cba;
+	color: #fff;
+}
+
+.customize-control-radio .customize-inside-control-row {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.customize-control-radio .customize-inside-control-row label {
+	background: #fff;
+	padding: 10px;
+	display: block;
+}
+
+/* Select Control
+--------------------------------------------- */
+.customize-control-select select {
+	transition: color 0.3s;
+}
+
+/* Image Control
+--------------------------------------------- */
+.customize-control-cropped_image button,
+.customize-control-site_icon button {
+	transition: background-color 0.3s;
+}
+
+/* Panel separation
+--------------------------------------------- */
+#accordion-panel-octo_panel_typography {
+	margin-bottom: 15px;
+}
+
+/* Check Control
+--------------------------------------------- */
+.customize-control-checkbox .customize-inside-control-row {
+	padding: 0;
+}
+
+.customize-control-checkbox .customize-control-description {
+	margin: 0;
+}
+
+/* Color Control
+--------------------------------------------- */
+.wp-color-result-text {
+	border-radius: 0px;
+}
+
+.wp-picker-open + .wp-picker-input-wrap {
+	width: 255px;
+	display: flex;
+}
+
+.wp-picker-input-wrap label,
+.wp-picker-container input[type="text"].wp-color-picker {
+	width: 100%;
+}
+
+.customize-control-color .wp-picker-open + .wp-picker-input-wrap {
+	width: 100%;
+}
+
+.wp-picker-container,
+.wp-picker-container .wp-color-result.button {
+	max-width: 255px;
+	width: 100%;
+}
+
+.wp-picker-container .wp-color-result.button {
+	padding-left: 30%;
+}
+
+#sub-accordion-section-octo_section_typography_headings :not(#customize-control-octo_settings-h1_entry_title_font_size, #customize-control-octo_settings-h2_entry_title_font_size).customize-control-octo-range .customize-control-title,
+#sub-accordion-section-octo_section_typography_body .customize-control-octo-range .customize-control-title,
+#customize-control-OCTO_SETTINGS-title_font_size .customize-control-title,
+#customize-control-OCTO_SETTINGS-menu_font_size .customize-control-title,
+#customize-control-OCTO_SETTINGS-submenu_font_size .customize-control-title {
+	font-style: italic;
+	font-weight: 400;
+}

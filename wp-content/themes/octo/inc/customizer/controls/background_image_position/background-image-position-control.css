@@ -1,0 +1,67 @@
+.customize-control-octo-background-image-position input[type="radio"] {
+	display: none;
+}
+
+.customize-control-octo-background-image-position .customize-control-subtitle {
+	display: block;
+	font-weight: 600;
+	line-height: 1.75;
+	margin-bottom: 12px;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group {
+	display: block;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group label {
+	display: inline-flex;
+	margin: 0 1px 2px 0 !important;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group:first-child label:first-child .position {
+	border-top-left-radius: 2px;
+}
+
+.customize-control-octo-background-image-position .background-position-control. button-group:first-child label:last-child .position {
+	border-top-right-radius: 2px;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group:last-child label:first-child .position {
+	border-bottom-left-radius: 2px;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group:last-child label:last-child .position {
+	border-bottom-right-radius: 2px;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group .position,
+.customize-control-octo-background-image-position .background-position-control .button-group .background-position-center-icon {
+	width: 3em;
+	height: 3em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group .position {
+	background: #fff;
+	color: #ccc;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group .dashicons {
+	margin: 0;
+}
+
+.customize-control-octo-background-image-position .background-position-control .button-group .background-position-center-icon:before {
+	background: #ccc;
+}
+
+.customize-control-octo-background-image-position .background-position-control input[type="radio"]:checked + .position {
+	background: #007cba;
+	color: #fff;
+}
+
+.customize-control-octo-background-image-position .background-position-control input[type="radio"]:checked + .position .background-position-center-icon:before {
+	background: #fff;
+}

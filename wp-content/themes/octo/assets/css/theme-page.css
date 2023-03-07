@@ -1,0 +1,153 @@
+/* Layout
+--------------------------------------------- */
+.octo-theme-page-container {
+	max-width: 1200px;
+	margin: 40px auto;
+	box-sizing: border-box;
+}
+
+.octo-theme-page-container-inner {
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	margin-right: 10px;
+}
+
+.octo-theme-page-header {
+	margin: 0 20px;
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+}
+
+.octo-theme-page-content {
+	margin: 0 20px;
+	padding-bottom: 40px;
+}
+
+.octo-theme-page-main {
+	padding: 20px 0;
+}
+
+.octo-theme-page-sidebar {
+	padding: 20px 0;
+}
+
+.octo-theme-page-main .octo-theme-page-content-box:not(:last-of-type),
+.octo-theme-page-sidebar .octo-theme-page-content-box:not(:last-of-type) {
+	margin-bottom: 60px;
+}
+
+@media screen and (min-width: 782px) {
+	.octo-theme-page-container-inner {	
+		margin-right: 20px;
+	}
+	
+	.octo-theme-page-content {
+		display: flex;
+	}
+	
+	.octo-theme-page-main {
+		flex-basis: 70%;
+		margin-right: 40px;
+	}
+	
+	.octo-theme-page-sidebar {
+		flex-basis: 30%;
+		margin-left: 40px;
+	}
+}
+
+/* Header
+--------------------------------------------- */
+.octo-theme-page-version {
+	margin-left: auto;
+	background: #e58817;
+	padding: 10px;
+	border-radius: 2px;
+	color: #ffffff;
+}
+
+/* Links
+--------------------------------------------- */
+.octo-theme-page a {
+	text-decoration: none;
+	color: #e58817;
+}
+
+.octo-theme-page a:hover,
+.octo-theme-page a:focus {
+	color: #eaa045;
+}
+
+
+
+/* Content Boxes
+--------------------------------------------- */
+.octo-theme-page-content-box {
+	/*border: 1px solid #cccccc;
+	padding: 20px;*/
+}
+
+.octo-theme-page-customizer-settings ul {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.octo-theme-page-customizer-settings ul li {
+	flex: 1 1 50%;
+	padding: 10px;
+	margin: 0 0 2px 0;
+	background: #f9f9f9;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+
+.octo-theme-page-customizer-settings ul li:nth-child(2n) {
+	margin-left: 2px;
+	margin-right: -2px;
+}
+
+.octo-theme-page-customizer-settings ul li:last-child {
+	margin-right: -2px;
+}
+
+/* Typography
+--------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #04080c;
+}
+
+.octo-theme-page {
+	color: #04080c;
+}
+
+/* Typography
+--------------------------------------------- */
+.octo-theme-page .button-larger {
+	padding: 5px 20px;
+}
+
+.octo-theme-page .button-primary {
+	color: #ffffff;
+	background: #e58817;
+	border-color: #e58817;
+	border-radius: 2px;
+}
+
+.octo-theme-page .button-primary:hover {
+	background: #eaa045;
+	border-color: #eaa045;
+}
+
+/* Icons
+--------------------------------------------- */
+.octo-theme-page-customizer-settings .dashicons {
+	margin-right: 10px;
+}

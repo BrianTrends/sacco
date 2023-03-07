@@ -1,0 +1,191 @@
+/* Elements
+--------------------------------------------- */
+blockquote {
+	border-left: none;
+	border-right: 5px solid var(--octo-separator-color);
+	margin: 0 3em var(--octo-paragraph-spacing) 0;
+	padding: 20px 20px 20px 0;
+}
+
+.wp-block-pullquote blockquote {
+	border-right: none;
+}
+
+ul,
+ol {
+	padding: 0 3em 0 0;
+}
+
+dd {
+	margin: 0 0 var(--octo-paragraph-spacing) 1.5em;
+}
+
+/* Header
+--------------------------------------------- */
+.octo-nav-inline .site-branding + .header-widget-area  {
+	margin-left: unset;
+	margin-right: auto;
+}
+
+.main-header .header-widget-area .widget {
+	margin-right: 20px;
+	margin-left: unset;
+}
+
+.octo-main-header-align-right .main-header .site-container-inner  {
+	flex-flow: row;
+}
+
+.octo-main-header-align-left .main-header .site-container-inner  {
+	flex-flow: row-reverse;
+}
+
+/* Navigation
+--------------------------------------------- */
+.octo-nav-inline .main-navigation {
+	margin-left: unset;
+	margin-right: auto;
+}
+
+.main-navigation .submenu-toggle-icon {
+	margin-left: unset;
+	margin-right: 5px;
+}
+
+.main-navigation ul ul .submenu-toggle-icon {
+	margin-left: unset;
+	margin-right: auto;
+	transform: rotate(90deg);
+}
+
+.main-navigation .nav-menu ul li.submenu-open > ul, .octo-dropdown-hover .main-navigation .nav-menu ul :is(li:hover, li.focus) > ul {
+	left: unset;
+	right: 0px;
+}
+
+.main-navigation .nav-menu ul ul li.submenu-open > ul, .octo-dropdown-hover .main-navigation .nav-menu ul ul :is(li:hover, li.focus) > ul {
+	left: unset;
+	right: 100%;
+}
+
+.octo-nav-inline .menu-toggle {
+	margin-left: unset;
+	margin-right: auto;
+}
+
+.menu-toggle-button .menu-toggle-text {
+	margin-right: 5px;
+	margin-left: unset;
+}
+
+.mobile-navigation .submenu-toggle-icon {
+	margin-right: auto;
+	margin-left: unset;
+}
+
+.octo-nav-align-left .main-header .nav-container-inner {
+	flex-direction: row-reverse;
+}
+
+.octo-nav-align-center .nav-container-inner > * {
+	margin-right: unset !important;
+	margin-left: unset !important;
+}
+
+.octo-nav-align-center .nav-container-inner > *:first-child {
+	margin-right: auto !important;
+}
+
+.octo-nav-align-center .nav-container-inner > *:last-child {
+	margin-left: auto !important;
+}
+
+.octo-nav-align-center .main-navigation .nav-widget-area {
+	margin-right: 20px !important;
+}
+
+.octo-nav-align-right .main-navigation .nav-container-inner {
+	flex-direction: row;
+}
+
+.main-navigation .nav-widget-area .widget:not(:last-child) {
+	margin: 0px 0px 0px 1.25em;
+}
+
+.pagination .nav-links > :not(:last-child) {
+	margin-right: unset;
+	margin-left: 30px;
+}
+
+.next svg, .nav-next svg, .next .dashicons, .nav-next .dashicons, .next .fas, .nav-next .fas, .nav-next > * {
+	margin-right: 10px;
+	margin-left: unset;
+}
+
+.prev svg, .nav-previous svg, .prev .dashicons, .nav-previous .dashicons, .prev .fas, .nav-previous .fas, .nav-previous > * {
+	margin-right: unset;
+	margin-left: 10px;
+}
+
+.next svg, .nav-next svg, .next .dashicons, .nav-next .dashicons, .next .fas, .nav-next .fas,
+.prev svg, .nav-previous svg, .prev .dashicons, .nav-previous .dashicons, .prev .fas, .nav-previous .fas {
+	transform: rotate(180deg);
+}
+
+.navigation .nav-previous {
+	margin-right: unset;
+	margin-left: auto;
+}
+
+.navigation .nav-next {
+	margin-right: auto;
+	margin-left: unset;
+}
+    
+
+/* Sidebar
+--------------------------------------------- */
+.octo-sidebar-right .site-content .site-container-inner {
+	flex-direction: row-reverse;
+}
+
+.octo-sidebar-left .site-content .site-container-inner {
+	flex-direction: row;
+}
+
+.widget ul, .widget ol {
+	padding-right: 0px;
+}
+
+/* Posts and pages
+--------------------------------------------- */
+.entry-meta > span {
+	padding-right: unset;
+	padding-left: 20px;
+}
+
+.entry-meta svg, .entry-meta .fas, .entry-meta .dashicons {
+	margin-right: unset;
+	margin-left: 10px;
+}
+
+.octo-thumbnail-left .post-inner {
+	flex-direction: row-reverse;
+}
+
+/* Comments
+--------------------------------------------- */
+.comment-author-avatar {
+	padding-right: unset;
+	padding-left: 20px;
+}
+
+.comment-author {
+	margin-right: unset;
+	margin-left: 10px;
+}
+
+.comment-published-date {
+	margin-left: unset;
+	margin-right: auto;
+}
